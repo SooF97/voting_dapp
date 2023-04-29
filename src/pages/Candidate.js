@@ -106,9 +106,10 @@ const Candidate = () => {
     const web3auth = new Web3Auth({
       clientId:
         "BErlbFHmO6H4yEHpzZK1zmnpbBt5jToooT9hFXQHEYAqotCVxLOxSVOPTTHrwfIt-3xw2UnNfy8BQrzR1fXMNjQ", // Get your Client ID from Web3Auth Dashboard
+      web3AuthNetwork: "testnet",
       chainConfig: {
         chainNamespace: "eip155",
-        chainId: "80001", // hex of 80001, polygon testnet
+        chainId: "0x13881", // hex of 80001, polygon testnet
         rpcTarget: "https://rpc.ankr.com/polygon_mumbai",
         // Avoid using public rpcTarget in production.
         // Use services like Infura, Quicknode etc

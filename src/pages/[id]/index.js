@@ -133,9 +133,10 @@ export default function Candidate() {
         const web3Auth = new Web3Auth({
           clientId:
             "BErlbFHmO6H4yEHpzZK1zmnpbBt5jToooT9hFXQHEYAqotCVxLOxSVOPTTHrwfIt-3xw2UnNfy8BQrzR1fXMNjQ",
+          web3AuthNetwork: "testnet",
           chainConfig: {
             chainNamespace: "eip155",
-            chainId: "80001",
+            chainId: "0x13881",
             rpcTarget: "https://rpc.ankr.com/polygon_mumbai",
             displayName: "Polygon Mumbai Testnet",
             blockExplorer: "https://mumbai.polygonscan.com/",
