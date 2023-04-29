@@ -135,7 +135,7 @@ export default function Candidate() {
             "BErlbFHmO6H4yEHpzZK1zmnpbBt5jToooT9hFXQHEYAqotCVxLOxSVOPTTHrwfIt-3xw2UnNfy8BQrzR1fXMNjQ",
           chainConfig: {
             chainNamespace: "eip155",
-            chainId: "0x13881",
+            chainId: "80001",
             rpcTarget: "https://rpc.ankr.com/polygon_mumbai",
             displayName: "Polygon Mumbai Testnet",
             blockExplorer: "https://mumbai.polygonscan.com/",
